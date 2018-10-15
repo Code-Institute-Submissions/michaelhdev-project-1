@@ -1,17 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*---------------------------------------------Colours*/
+/*---------------------------------------------Footer*/
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 50px;
+    margin:0;
+}
+.social-text{
+   color: red; 
+}
+.social-links{
+    padding-top: 6px;
+}
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius:  50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
-
-
+.social-links li a i:hover {
+        color: #e84610;
+}
 /*---------------------------------------------Header*/
 header{
     margin:0;
+    background-color: #141414;
 }
 #nav-bar{
     margin: 0;
 }
-
 
 .monkees-image-logo{
     background: url("../images/monkees.jpg");
@@ -35,10 +63,16 @@ header{
     text-align: center;
     padding: 0;
     background-color: #fffd16;
+    color: #e84610;
+}
+
+.menuitem a{
+    color: #e84610;
 }
 
 @media(min-width:992px){
    .monkees-text-logo{
      min-height: 200px;
+}
 }
 
