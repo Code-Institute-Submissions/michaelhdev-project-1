@@ -64,6 +64,48 @@ header{
     max-width: 148px;
 }
 
+.timeline-item {
+    margin:0;
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: red;
+    border-left: 1px solid;
+}
+
+.timeline-item h4{
+    padding: 0;
+    margin: 0;
+}
+.timeline-item::before{
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin:0;
+}
+
+.timeline-item::after{
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: red;
+}
+
+/*.discography{*/
+/*    max-height: 60px;*/
+/*    position: relative;*/
+/*    z-index: -1;*/
+/*}*/
 /*---------------------------------------------Footer*/
 footer{
     background-color: #525252;
