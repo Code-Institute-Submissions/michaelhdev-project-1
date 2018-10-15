@@ -1,36 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*---------------------------------------------Footer*/
-footer{
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 50px;
-    margin:0;
-}
-.social-text{
-   color: red; 
-}
-.social-links{
-    padding-top: 6px;
-}
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius:  50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background-color: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+/*---------------------------------------------Colours*/
+
+.bg-color-experience{
+    background-color: #f4f4f4;
 }
 
-.social-links li a i:hover {
-        color: #e84610;
+.bg-color-the-band{
+    background-color: #ffffff;
 }
 /*---------------------------------------------Header*/
 header{
@@ -69,6 +46,49 @@ header{
 .menuitem a{
     color: #e84610;
 }
+/*---------------------------------------------Band Home Page*/
+.band-member-image img{
+    max-height: 100%;
+    max-width:100%;
+}
+
+.band-member{
+    padding-bottom: 30px;
+}
+/*---------------------------------------------Footer*/
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 50px;
+    margin:0;
+}
+.social-text{
+   color: red; 
+}
+.social-links{
+    padding-top: 6px;
+}
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius:  50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+        color: #e84610;
+}
+
+/*---------------------------------------------Media Queries*/
 
 @media(min-width:992px){
    .monkees-text-logo{
