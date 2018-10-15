@@ -55,6 +55,15 @@ header{
 .band-member{
     padding-bottom: 30px;
 }
+/*---------------------------------------------Music Page*/
+.single {
+    padding-bottom: 30px;
+}
+.single-covers img{
+    max-height: 148px;
+    max-width: 148px;
+}
+
 /*---------------------------------------------Footer*/
 footer{
     background-color: #525252;
