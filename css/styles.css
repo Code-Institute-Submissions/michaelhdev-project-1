@@ -117,6 +117,7 @@ hr {
 /*    position: relative;*/
 /*    z-index: -1;*/
 /*}*/
+<<<<<<< HEAD
 
 /*---------------------------------------------Band News Page*/
 
@@ -136,6 +137,8 @@ button[type="submit"]{
     background-color: #e84610;
     color: #fafafa;
 }
+=======
+>>>>>>> 5229b5c736308467bcc233a1767256a51d8d5ba4
 /*---------------------------------------------Footer*/
 footer{
     background-color: #525252;
