@@ -100,13 +100,13 @@ header{
     padding-right: 10px;
 }
 .history i{
-    color: red;
+    color: #e84610;
     padding-right: 10px;
 }
 /*---------------------------------------------Music Page*/
 .compact-disc{
     font-size: 45px;
-    color: red;
+    color: #e84610;
 }
 
 .album{
@@ -118,7 +118,7 @@ header{
 }
 
 .album-text{
-    color:red;
+    color: #e84610;
     font-size:18px;
     font-weight: 400;
 }
@@ -185,7 +185,7 @@ hr {
 .timeline-item h4{
     padding: 0;
     margin: 0;
-    color: red;
+    color: #e84610;
 }
 .timeline-item::before{
     content: attr(dates);
@@ -209,13 +209,22 @@ hr {
     left: -6px;
     border-radius: 12px;
     content: '';
-    background: red;
+    background: #e84610;
 }
 /*---------------------------------------------Booking Page*/
 .booking-form{
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+}
+.book-us-header{
+    text-align: center;
+}
+.reviews{
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 button[type="submit"]{
