@@ -24,7 +24,10 @@ User Stories
 - A new user looking to book the monkees for an even wants to read booking reviews.
 - A fan wants to follow the monkees on social media.
 
-WireFrame diagrams are located within the wireframes directory of the project directory.
+WireFrame diagrams
+- [Desktop wireframe](https://michaelhdev.github.io/project-1/wireframe-diagrams/desktop-wireframe.JPG)
+- [Tablet wireframe](https://michaelhdev.github.io/project-1/wireframe-diagrams/tablet-wireframe.JPG)
+- [Phone wireframe](https://michaelhdev.github.io/project-1/wireframe-diagrams/phone-wireframe.JPG)
 
 ## Features
 
