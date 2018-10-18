@@ -9,6 +9,7 @@
 .bg-color-main{
     background-color: #ffffff;
 }
+
 /*---------------------------------------------Global*/
 .heading{
     font-family: "Exo", sans-serif;
@@ -16,6 +17,10 @@
 }
 .uppercase{
     text-transform: uppercase;
+}
+
+.main-content{
+    display: table;
 }
 /*---------------------------------------------Header*/
 header{
@@ -273,6 +278,10 @@ footer{
 @media(min-width:992px){
    .monkees-text-logo{
      min-height: 200px;
+}
+.column{
+    float: none;/*Allows the column to be full height*/
+    display: table-cell;
 }
 }
 
