@@ -9,14 +9,11 @@
 .bg-color-main{
     background-color: #ffffff;
 }
-
+/*---------------------------------------------Global*/
 .heading{
     font-family: "Exo", sans-serif;
     font-weight: 400;
-    /*margin-top: 20px;*/
-    
 }
-
 .uppercase{
     text-transform: uppercase;
 }
@@ -35,7 +32,7 @@ header{
 .monkees-image-logo{
     background: url("../images/monkees.jpg");
     background-color: #141414;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 260px;
@@ -47,6 +44,7 @@ header{
      transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out; /*Browser prefixes to ensure compatibility*/
+    /*Makes the tranition in height when changing viewport size smooth*/
 }
 
 .menuitem{
@@ -71,7 +69,7 @@ header{
 }
 
 .menuitem a:hover {
-    transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; /*Ease in the colour on hover*/
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     background-color: #e84610;
@@ -268,7 +266,7 @@ footer{
 }
 
 /*---------------------------------------------Media Queries*/
-
+/*Change the logo div height on desktop*/
 @media(min-width:992px){
    .monkees-text-logo{
      min-height: 200px;
