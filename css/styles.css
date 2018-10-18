@@ -36,6 +36,9 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 260px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out; /*Stops the image jumping onto the page when loading*/
 }
 
 .monkees-text-logo{
