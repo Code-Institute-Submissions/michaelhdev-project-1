@@ -135,6 +135,7 @@ During testing
 ## Deployment
 
 This project is deployed using github pages. 
+- [Website](https://michaelhdev.github.io/project-1)
 
 
 ## Credits
