@@ -14,14 +14,15 @@ The following user stories were created during the design process. The user shou
 
 A fan denotes a user that is a current fan or prospective fan
 
-A fan wants to find out about the history of the band.
-A fan wants to find out about the band members.
-A fan wants to find information about The Monkees back catalogue.
-A fan wants to listen to songs.
-A fan wants to find out about news and up coming tours and events.
-A fan wants to book the Monkees for an event.
-A new user looking to book the monkees for an even wants to read booking reviews.
-A fan wants to follow the monkees on social media.
+User Stories
+- A fan wants to find out about the history of the band.
+- A fan wants to find out about the band members.
+- A fan wants to find information about The Monkees back catalogue.
+- A fan wants to listen to songs.
+- A fan wants to find out about news and up coming tours and events.
+- A fan wants to book the Monkees for an event.
+- A new user looking to book the monkees for an even wants to read booking reviews.
+- A fan wants to follow the monkees on social media.
 
 WireFrame diagrams are located within the wireframes directory of the project directory.
 
