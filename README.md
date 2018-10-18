@@ -52,8 +52,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - This project uses **Bootstrap** to make the site responsive for different screen sizes.
 - [Font Awesome](https://fontawesome.com/)
     - This project uses **Font Awesome** to display different icons throughout the site.
--HTML 5
--CSS
+
+- HTML 5
+- CSS
 
 ## Testing
 
